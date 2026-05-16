@@ -17,10 +17,33 @@ img {
   max-width: 100%;
   vertical-align: bottom;
 }
+li {
+  list-style: none;
+}
 .logo {
   width: 100px;
   line-height: 1px;
   margin-right: 60px;
+}
+.logo a {
+  display: block;
+}
+.section-title {
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.section-title .en {
+  display: block;
+  font-size: 2.25rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 10px;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 #header {
@@ -32,4 +55,33 @@ img {
 #header .inner {
   display: flex;
   align-items: center;
+}
+#header .inner ul {
+  display: flex;
+  align: center;
+}
+#header .inner li {
+  margin-right: 30px;
+}
+#header .inner li:last-child {
+  margin-right: 0;
+}
+#header .contact {
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  display: inline-block;
+  text-align: center;
+}
+
+#mainvisual {
+  margin-bottom: 120px;
+}
+#mainvisual img {
+  width: 100%;
+  height: calc(100vh - 80px);
+  object-fit: cover;
 }
