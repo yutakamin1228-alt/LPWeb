@@ -13,3 +13,23 @@ a {
   font-size: 0.875rem;
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.logo {
+  width: 100px;
+  line-height: 1px;
+  margin-right: 60px;
+}
+
+#header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .inner {
+  display: flex;
+  align-items: center;
+}
